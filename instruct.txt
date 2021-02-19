@@ -3,7 +3,7 @@
 3. Run Terminal.
 4. Write npm i in Terminal.
 5. Write 'npm run watch' for Start working.
-6. For start server go to ./js   folder. Open terminal in this folder and run   json-server --watch db.json --port 3004
+6. For start server go to ./src/js   folder. Open terminal and run   json-server --watch db.json --port 3004
 
 ___clarifications___
 
