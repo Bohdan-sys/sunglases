@@ -1,0 +1,43 @@
+.swiper
+    display: flex
+    justify-content: space-between
+
+.swiper-container
+    width: 100%
+    max-height: 540px
+    +mq-till-xl ()
+        max-height: 400px
+    +mq-till-md ()
+        max-height: 300px
+    overflow: hidden
+
+.swiper-slide
+    background-size: cover
+    background-position: center
+    cursor: grab
+    padding: 4px
+    &-active
+        padding-top: 10%
+
+.gallery-top
+    height: 100%
+    width: 80%
+    border: 2px solid #E3E2E2
+    margin-left: 20px
+
+.gallery-thumbs
+    width: 20%
+    box-sizing: border-box
+
+    .swiper-slide
+        width: 100%
+        border: 2px solid #E3E2E2
+        max-height: 136px
+        +mq-till-xl ()
+            max-height: 100px
+        cursor: pointer
+
+    .swiper-slide-thumb-active
+        opacity: 1
+        padding: 0
+        border: 2px solid #33F0A9

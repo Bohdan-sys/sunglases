@@ -1,0 +1,24 @@
+$mq-small: 576px
+$mq-medium: 768px
+$mq-large: 992px
+$mq-ex-large: 1440px
+
+%center
+    max-width: 100%
+    margin: 0 auto
+
+.container
+    @extend %center
+    +mq-sm ()
+        max-width: $mq-small - 8px
+    +mq-md ()
+        max-width: $mq-medium - 8px
+    +mq-lg ()
+        max-width: $mq-large - 8px
+    +mq-xl ()
+        max-width: $mq-ex-large - 8px
+    &--
+        &space_m
+            padding: 84px 60px
+            +mq-till-sm ()
+                padding: 40px 8px

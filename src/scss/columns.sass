@@ -1,0 +1,23 @@
+
+/* ---- cells ----*/
+$cells: 12
+
+@function cell-width($index, $cells)
+    @return 100% / $cells * $index
+
+.cell
+    padding: 0 16px
+    &--
+        &space_none
+            +mq-adaptive()
+                padding: 0
+        &display_flex
+            +mq-adaptive()
+                display: flex
+                flex-wrap: wrap
+
+        @for $i from 1 through $cells
+            &#{$i}
+                $columns: cell-width($i, $cells)
+                +mq-adaptive()
+                    width: $columns

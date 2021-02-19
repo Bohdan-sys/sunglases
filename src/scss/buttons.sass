@@ -1,0 +1,52 @@
+$screen-sm: 768px
+$screen-md: 992px
+$screen-lg: 1200px
+
+@mixin aqua
+    &:hover
+        background: #2cb983
+        transition: 0.5s
+        box-shadow: 8px 8px 0px 2px #000000
+
+@mixin black
+    &:hover
+        background: #2c2c2c
+        transition: 0.5s
+        box-shadow: 8px 8px 0px 2px #33d497
+
+.button
+    width: 100%
+    position: relative
+
+    &--
+        &bg_aqua
+            background-color: #33F0A9
+            box-shadow: 8px 8px 0px 0px black
+            padding: 24px
+            transition: 0.5s
+            margin-bottom: 16px
+            margin-top: 20px
+            +mq-till-xl ()
+                margin-top: 8px
+            +aqua
+
+        &bg_black
+            background-color: #000000
+            box-shadow: 8px 8px 0px 0px #33F0A9
+            padding: 24px
+            transition: 0.5s
+            +black
+
+        &bg_transparent
+            background-color: transparent
+            border: 1px solid white
+        &space_l
+            padding: 28px
+        &bg_white
+            background-color: #fff
+            &.is-active
+                background-color: #16be32
+        &space_m
+            padding: 16px 0
+        &border_radius
+            border-radius: 8px

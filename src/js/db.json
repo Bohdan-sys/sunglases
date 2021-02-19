@@ -1,0 +1,54 @@
+{
+  "posts": [
+    {
+      "variantID": "orange",
+      "quantity": "",
+      "imgSrc": [
+        "orange1.png",
+        "orange2.png",
+        "orange3.png"
+      ],
+      "id": 1
+    },
+    {
+      "variantID": "blue",
+      "quantity": "",
+      "imgSrc": [
+        "blue1.png",
+        "blue2.png",
+        "blue3.png"
+      ],
+      "id": 2
+    },
+    {
+      "variantID": "green",
+      "quantity": "",
+      "imgSrc": [
+        "green1.png",
+        "green2.png",
+        "green3.png"
+      ],
+      "id": 3
+    },
+    {
+      "variantID": "orange",
+      "quantity": 1,
+      "imgSrc": [
+        "orange1.png",
+        "orange2.png",
+        "orange3.png"
+      ],
+      "id": 4
+    },
+    {
+      "variantID": "green",
+      "quantity": 1,
+      "imgSrc": [
+        "green1.png",
+        "green2.png",
+        "green3.png"
+      ],
+      "id": 5
+    }
+  ]
+}

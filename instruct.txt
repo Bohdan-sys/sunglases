@@ -1,0 +1,34 @@
+1. Welcome to my compilate!
+2. Open folder with VS code etc.
+3. Run Terminal.
+4. Write npm i in Terminal.
+5. Write 'npm run watch' for Start working.
+6. For start server go to ./js   folder. Open terminal in this folder and run   json-server --watch db.json --port 3004
+
+___clarifications___
+
+--  #src - folder with all your drafts for main work,
+--  all additional .html files must be called from _(like  _header.html),
+--  for compilate _NAME.html drafts files into one, you should write in index.html file @@include('_NAME.html').
+
+
+
+
+
+
+
+All plugin package
+
+BrowserSync 
+File Include 
+Del 
+Sass 
+Autoprefixer 
+Group CSS media-queries
+Rename 
+Clean CSS 
+Uglify ES 
+Babel 
+Imagemin 
+Sourcemaps
+Webpack
