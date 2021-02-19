@@ -49,6 +49,56 @@
         "green3.png"
       ],
       "id": 5
+    },
+    {
+      "variantID": "blue",
+      "quantity": 1,
+      "imgSrc": [
+        "blue1.png",
+        "blue2.png",
+        "blue3.png"
+      ],
+      "id": 6
+    },
+    {
+      "variantID": "green",
+      "quantity": 1,
+      "imgSrc": [
+        "green1.png",
+        "green2.png",
+        "green3.png"
+      ],
+      "id": 7
+    },
+    {
+      "variantID": "orange",
+      "quantity": 1,
+      "imgSrc": [
+        "orange1.png",
+        "orange2.png",
+        "orange3.png"
+      ],
+      "id": 8
+    },
+    {
+      "variantID": "green",
+      "quantity": 1,
+      "imgSrc": [
+        "green1.png",
+        "green2.png",
+        "green3.png"
+      ],
+      "id": 9
+    },
+    {
+      "variantID": "orange",
+      "quantity": 1,
+      "imgSrc": [
+        "orange1.png",
+        "orange2.png",
+        "orange3.png"
+      ],
+      "id": 10
     }
   ]
 }
