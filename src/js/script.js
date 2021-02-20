@@ -34,7 +34,7 @@ window.addEventListener('DOMContentLoaded', function () {
         addBtn = document.querySelector('.js-button--add');
     let chosenVariant;
 
-    const changeColor = (arr, btn) => {
+    const changeColor = (arr = products, btn = orangeBtn[0]) => {
         arr.forEach((product, index) => {
             if (btn.getAttribute('data-id') === product.variantID) {
                 product.imgSrc.forEach((p, i) => {
@@ -46,7 +46,7 @@ window.addEventListener('DOMContentLoaded', function () {
             }
         })
     };
-    changeColor(products, orangeBtn[0])
+    changeColor()
 
     orangeBtn.forEach(btn => {
         btn.addEventListener('click', () => changeColor(products, btn))

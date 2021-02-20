@@ -22,6 +22,9 @@ body
 .card
     position: relative
     &--
+        &mr_8
+            margin-right: 8px
+            margin-bottom: 8px
         &grid_4
             display: grid
             grid-template-rows: 1fr
@@ -75,28 +78,15 @@ body
         &--
             &title
                 margin-bottom: 32px
+                +mq-till-lg ()
+                    margin-top: 20px
             &item
                 display: flex
                 justify-content: space-between
                 align-items: flex-end
                 border-bottom: 2px solid black
                 margin-bottom: 20px
-                .discount
-                    display: flex
-                    h2:nth-child(1)
-                        color: black
-                        position: relative
-                        margin-right: 2px
-                        &::after
-                            position: absolute
-                            top: 50%
-                            left: 0%
-                            content: ''
-                            height: 2px
-                            width: 100%
-                            background: #D01917
-                    h2:nth-child(2)
-                        color: #D01917
+
             &bg_aqua
                 background: #33F0A9
             &control
@@ -107,6 +97,23 @@ body
                 margin-bottom: 52px
                 +mq-till-xl ()
                     margin-bottom: 32px
+.price-group
+    .discount
+        display: flex
+        h2:nth-child(1)
+            color: black
+            position: relative
+            margin-right: 2px
+            &::after
+                position: absolute
+                top: 50%
+                left: 0%
+                content: ''
+                height: 2px
+                width: 100%
+                background: #D01917
+        h2:nth-child(2)
+            color: #D01917
 .control
     &--
         &button

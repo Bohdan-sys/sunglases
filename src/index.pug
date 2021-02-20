@@ -92,11 +92,12 @@ html(lang="en")
                             .card__panel--item
                                 h2.caption.caption--size_3.caption--uppercase.caption--bold.caption--line_height_1
                                     | POLYCARBONATE POLARIZED
-                                .discount
-                                    h2.caption.caption--size_3.caption--uppercase.caption--bold.caption--line_height_1
-                                        | $50.00
-                                    h2.caption.caption--size_3.caption--uppercase.caption--bold.caption--line_height_1
-                                        | $30.00
+                                .price-group.js-price-group
+                                    .discount
+                                        h2.caption.caption--size_3.caption--uppercase.caption--bold.caption--line_height_1
+                                            | $50.00
+                                        h2.caption.caption--size_3.caption--uppercase.caption--bold.caption--line_height_1
+                                            | $30.00
                             .card__panel--control
                                 .control--button
                                     button.button.js-button--orange(data-id='orange')
@@ -116,7 +117,8 @@ html(lang="en")
                             .card__panel--item
                                 h2.caption.caption--size_3.caption--uppercase.caption--bold.caption--line_height_1
                                     | TRIVEX® PERFORMANCE
-                                h2.caption.caption--size_3.caption--uppercase.caption--bold.caption--line_height_1
+                                .price-group
+                                    h2.caption.caption--size_3.caption--uppercase.caption--bold.caption--line_height_1
                                         | $75
                             .card__panel--control
                                 .control--button
@@ -134,7 +136,7 @@ html(lang="en")
                                         img(src="./img/mirror_lumolux_9.png", alt="glases")
                                     .label
                                         p.caption.caption--size_5.caption--bold Green mirror
-                        .card
+                        .card.card--mr_8
                             button.button.button--bg_aqua.js-button--add
                                 span.caption.caption--uppercase.caption--size_5.caption--bold.caption--line_height_1
                                     | Add to cart
